@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module base.py
+about base.py
 """
 
 
@@ -29,7 +29,7 @@ class Base:
     @classmethod
     def save_to_file(cls, list_objs):
         """
-        writes the JSON string representation of list_objs to a file
+        the JSON string representation of list_objs
         """
         filename = cls.__name__ + ".json"
 
