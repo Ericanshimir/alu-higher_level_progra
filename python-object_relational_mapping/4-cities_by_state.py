@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module 4-cities_by_state.py
+Cities by states module
 """
 
 
