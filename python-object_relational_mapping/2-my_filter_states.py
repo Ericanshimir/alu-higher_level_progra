@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" a script that takes in an argument and displays all values in the states table """
+""" a script that takes in an argument and displays all values """
 
 if __name__ == "__main__":
     import MySQLdb
