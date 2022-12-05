@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" just first fetch """
+""" First state """
 
 
 if __name__ == "__main__":
