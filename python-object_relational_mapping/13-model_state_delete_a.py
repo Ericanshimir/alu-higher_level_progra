@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" module delete states """
+""" delete states module"""
 
 
 if __name__ == "__main__":
