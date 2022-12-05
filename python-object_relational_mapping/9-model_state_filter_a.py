@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" list objects"""
+""" Contains 'a' module"""
 
 
 if __name__ == "__main__":
