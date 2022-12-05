@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" module gets a state """
+""" get a state module """
 
 
 if __name__ == "__main__":
