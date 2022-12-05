@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Module 5-filter_cities.py
+""" All cities by state module
 """
 
 import MySQLdb
@@ -7,7 +7,7 @@ import sys
 
 
 def my_safe_filter_states():
-    """ lists all cities from the database
+    """ a script that lists all cities from the database
     hbtn_0e_4_usa"""
 
     db = MySQLdb.connect(host="localhost",
