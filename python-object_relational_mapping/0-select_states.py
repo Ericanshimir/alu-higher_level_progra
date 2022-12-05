@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module 0-select_states.py
+Script that lists all states from the database hbtn_0e_0_usa
 """
 
 
