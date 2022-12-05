@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" module gets all states """
+""" All states via SQLAlchemy """
 
 import sys
 from sqlalchemy import (create_engine)
