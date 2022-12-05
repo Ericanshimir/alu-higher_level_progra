@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" module update a state """
+""" update a state """
 
 
 if __name__ == "__main__":
