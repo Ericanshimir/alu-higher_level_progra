@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" 11-model_state_insert.py """
+""" add a new state module """
 
 
 if __name__ == "__main__":
