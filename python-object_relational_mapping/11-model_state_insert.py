@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" add a new state module """
+""" Write a script that adds the State object """
 
 
 if __name__ == "__main__":
