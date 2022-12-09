@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""model city module"""
+"""model_city module"""
 from model_state import Base, State
 from sqlalchemy import Column, Integer, ForeignKey, String
 from sqlalchemy.orm import relationship
@@ -7,7 +7,7 @@ from sqlalchemy.orm import relationship
 
 class City(Base):
     """
-    City class inherits from State
+    City class inherits
     """
     __tablename__ = 'cities'
     id = Column('id', Integer, primary_key=True, nullable=False)
