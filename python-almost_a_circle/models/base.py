@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module base.py
+Base class module
 """
 
 
@@ -29,7 +29,7 @@ class Base:
     @classmethod
     def save_to_file(cls, list_objs):
         """
-        writes the JSON string representation of list_objs to a file
+        JSON string representation of list_objs to a file
         """
         filename = cls.__name__ + ".json"
 
@@ -43,7 +43,7 @@ class Base:
     @staticmethod
     def from_json_string(json_string):
         """
-        returns the list(python obj) of the JSON string representation
+        returns the list of the JSON string representation
         """
         if json_string is None or len(json_string) == 0:
             return []
