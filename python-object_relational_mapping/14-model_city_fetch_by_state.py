@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" module cities in state """
+""" cities in state module """
 
 
 if __name__ == "__main__":
