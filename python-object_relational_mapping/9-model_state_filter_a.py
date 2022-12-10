@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Contains 'a' module"""
+""" a script that lists all State objects that contain the letter a"""
 
 
 if __name__ == "__main__":
