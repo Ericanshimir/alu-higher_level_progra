@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-101-relationship_states_cities_list.py
+relationship states cities list module
 """
 from sys import argv
 from relationship_state import Base, State
