@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Cities by states modul
+Cities by states module
 """
 
 
