@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Write a Rectangle Classan
+Write a Rectangle Class
 inherits from Base
 """
 
@@ -9,7 +9,7 @@ from models.base import Base
 
 
 class Rectangle(Base):
-    """class definition"""
+    """Update the class rectangle"""
     def __init__(self, width, height, x=0, y=0, id=None):
         """Initialize"""
         super().__init__(id)
@@ -79,13 +79,13 @@ class Rectangle(Base):
         return self.__width * self.__height
 
     def display(self):
-        """prints out rectangle instance us #"""
+        """print out rectangle instance us #"""
         print("\n" * self.__y + "\n".join(" " * self.__x +
               "#" * self.__width for _ in range(self.__height)))
 
     def __str__(self):
         """
-        prints [Rectangle] (<id>) <x>/<y> - <width>/<height>
+        print [Rectangle] (<id>) <x>/<y> - <width>/<height>
         """
         return "[{:s}] ({:d}) {:d}/{:d} - {:d}/{:d}".format(
                 self.__class__.__name__, self.id, self.__x, self.__y,
@@ -93,7 +93,7 @@ class Rectangle(Base):
 
     def update(self, *args, **kwargs):
         """
-        assigns an argument to each attribute:
+        assign an argument to each attribute:
         id, width, height, x, y in that order
         """
         if args:
@@ -121,7 +121,7 @@ class Rectangle(Base):
                 self.y = kwargs["y"]
 
     def to_dictionary(self):
-        """returns the dictionary representation of a Rectangle"""
+        """dictionary representation of a Rectangle"""
         dic = {}
         dic["id"] = self.id
         dic["width"] = self.width
