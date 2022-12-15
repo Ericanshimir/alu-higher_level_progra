@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" get a state module """
+"""get a state module """
 
 
 if __name__ == "__main__":
