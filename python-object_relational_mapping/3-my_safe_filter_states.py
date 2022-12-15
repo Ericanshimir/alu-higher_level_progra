@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-SQL Injection
+SQL Injection module
 """
 
 
