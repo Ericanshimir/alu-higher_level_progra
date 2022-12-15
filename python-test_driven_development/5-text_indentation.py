@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 """
-Define a function of text indentation
+A function of text indentation
 """
 
 
 def text_indentation(text):
     """
-    Prints a 2 new lines after each text
+    Print 2 new lines after each of these characters: ., ? and :
     """
     if not isinstance(text, str):
         raise TypeError("text must be a string")
