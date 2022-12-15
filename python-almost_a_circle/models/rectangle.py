@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-contains class Rectangle
+Write a Rectangle Classan
 inherits from Base
 """
 
