@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" a script that lists all State objects that contain the letter a"""
+"""A script that lists all State objects that contain the letter a"""
 
 
 if __name__ == "__main__":
