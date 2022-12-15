@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defines a function that prints a square"""
+"""Define a function that prints a square"""
 
 
 def print_square(size):
