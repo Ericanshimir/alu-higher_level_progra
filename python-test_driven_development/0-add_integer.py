@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""Defines a function addition of integers"""
+"""Define a function that add two integers"""
 
 
 def add_integer(a, b=98):
-    """Return an integer: the addition of a and b.
+    """Return the addition of a and b.
     """
     if not isinstance(a, (int, float)):
         raise TypeError("a must be an integer")
