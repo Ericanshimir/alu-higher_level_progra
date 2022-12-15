@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" First state """
+""" First state module """
 
 
 if __name__ == "__main__":
