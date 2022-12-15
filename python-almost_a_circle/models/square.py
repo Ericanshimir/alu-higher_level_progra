@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-inherits from class Rectangle
+the class square that inherits from Rectangle
 """
 
 
@@ -8,7 +8,7 @@ from models.rectangle import Rectangle
 
 
 class Square(Rectangle):
-    """defines class Square"""
+    """define class Square"""
     def __init__(self, size, x=0, y=0, id=None):
         """initialization"""
         super().__init__(size, size, x, y, id)
@@ -21,7 +21,7 @@ class Square(Rectangle):
 
     @size.setter
     def size(self, value):
-        """Setter size - sets width and height as size"""
+        """Setter size"""
         self.width = value
         self.height = value
 
@@ -32,7 +32,7 @@ class Square(Rectangle):
                 self.size)
 
     def update(self, *args, **kwargs):
-        """args and kwargs"""
+        """square update"""
         if args:
             for cnt, arg in enumerate(args):
                 if cnt == 0:
@@ -54,7 +54,7 @@ class Square(Rectangle):
                 self.y = kwargs["y"]
 
     def to_dictionary(self):
-        """dictionary representation"""
+        """Square instance to dictionary representation"""
         dic = {}
         dic["id"] = self.id
         dic["size"] = self.size
