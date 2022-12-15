@@ -20,7 +20,7 @@ class Base:
 
     @staticmethod
     def to_json_string(list_dictionaries):
-        """Return the JSON string representation"""
+        """Dictionary to JSON string"""
         if list_dictionaries is None:
             return "[]"
         else:
@@ -29,7 +29,7 @@ class Base:
     @classmethod
     def save_to_file(cls, list_objs):
         """
-        Write the JSON string representation of list_objs to a file
+        the JSON string to a file
         """
         filename = cls.__name__ + ".json"
 
@@ -43,7 +43,7 @@ class Base:
     @staticmethod
     def from_json_string(json_string):
         """
-        returns the list of the JSON string representation json_string
+        the JSON string to dictonary
         """
         if json_string is None or len(json_string) == 0:
             return []
@@ -52,7 +52,7 @@ class Base:
 
     @classmethod
     def create(cls, **dictionary):
-        """returns an instance with all attributes already set"""
+        """Dictionary to instance"""
         if cls.__name__ == "Rectangle":
             dummy_obj = cls(4, 5)  # dummy instance
         if cls.__name__ == "Square":
@@ -62,7 +62,7 @@ class Base:
 
     @classmethod
     def load_from_file(cls):
-        """returns a list of instances"""
+        """File to instance"""
         filename = cls.__name__ + ".json"
         try:
             with open(filename, 'r', encoding='utf-8') as f:
