@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Write a script that adds the State object """
+""" A script that adds the State object """
 
 
 if __name__ == "__main__":
