@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-"""Max integer- Unittest"""
+"""Max integer Unittest"""
 import unittest
 max_integer = __import__('6-max_integer').max_integer
 
 
 class TestMaxInteger(unittest.TestCase):
-    """Define unittests"""
+    """Define unittest"""
 
     def test_ordered_list(self):
         """Test an ordered list of integers"""
