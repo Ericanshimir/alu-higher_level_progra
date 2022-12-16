@@ -1,4 +1,4 @@
-How to use 4-print_square.py
+How to use print square
 
 >>> print_square = __import__('4-print_square').print_square
 
