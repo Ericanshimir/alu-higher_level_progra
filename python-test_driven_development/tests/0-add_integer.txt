@@ -1,4 +1,4 @@
-Module  ''0-add_interger''
+Module  ''test/0-add_interger''
 
 >>> add_integer = __import__('0-add_integer').add_integer
 
