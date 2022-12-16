@@ -1,4 +1,4 @@
-How to use 3-say_my_name.py
+How to use say my name
 >>> say_my_name = __import__('3-say_my_name').say_my_name
 
 Test for firstname= string / lastname= string
