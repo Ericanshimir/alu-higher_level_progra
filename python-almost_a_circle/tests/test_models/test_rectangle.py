@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Test cases for Base"""
+"""Test_rectangle.py file"""
 
 import unittest
 from io import StringIO
