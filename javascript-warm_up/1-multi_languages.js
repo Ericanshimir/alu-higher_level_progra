@@ -1,5 +1,2 @@
 #!/usr/bin/node
-const output = `C is fun
-Python is cool
-Javascript is amazing`;
-console.log(output);
+console.log('C is fun\nPython is cool\nJavaScript is amazing');
